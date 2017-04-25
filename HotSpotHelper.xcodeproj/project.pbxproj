@@ -294,7 +294,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: arjun amate (HQ7JTH3MCT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Reliance Jio Digital Services Private Limited (8PVH2NGH42)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Reliance Jio Digital Services Private Limited (8PVH2NGH42)";
 				DEVELOPMENT_TEAM = 8PVH2NGH42;
 				INFOPLIST_FILE = HotSpotHelper/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -303,10 +304,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/HotSpotHelper/Libs",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jio.jionet;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jio.cmexampleapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "39b7bc8f-876f-4109-af7a-0e3406a56ad3";
-				PROVISIONING_PROFILE_SPECIFIER = jionetNE;
+				PROVISIONING_PROFILE = "28588b31-2ade-408f-b111-cbd5840b2d25";
+				PROVISIONING_PROFILE_SPECIFIER = "CMExampleApp Dist";
 			};
 			name = Debug;
 		};
@@ -314,7 +315,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: arjun amate (HQ7JTH3MCT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Reliance Jio Digital Services Private Limited (8PVH2NGH42)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Reliance Jio Digital Services Private Limited (8PVH2NGH42)";
 				DEVELOPMENT_TEAM = 8PVH2NGH42;
 				INFOPLIST_FILE = HotSpotHelper/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -323,10 +325,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/HotSpotHelper/Libs",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jio.jionet;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jio.cmexampleapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "39b7bc8f-876f-4109-af7a-0e3406a56ad3";
-				PROVISIONING_PROFILE_SPECIFIER = jionetNE;
+				PROVISIONING_PROFILE = "28588b31-2ade-408f-b111-cbd5840b2d25";
+				PROVISIONING_PROFILE_SPECIFIER = "CMExampleApp Dist";
 			};
 			name = Release;
 		};
